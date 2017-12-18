@@ -1,0 +1,24 @@
+Example 1
+z := 2;
+if z < 1 then
+  z := 1
+else
+  z := 9
+end;
+write z
+
+Example 2
+read n;
+sum := 0;
+while n > 0 do
+  sum := sum + n;
+  n := n - 1
+end;
+write sum
+
+Example 3
+x := 10;
+y := 2;
+if x > 9 and x < 11 or x != 4 then
+   write 1
+end
